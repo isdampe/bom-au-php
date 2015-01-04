@@ -1,5 +1,5 @@
 #Fetch data from bom.gov.au with PHP
-I need a quick small library for pulling down some json and xml data provided
+I needed a quick small library for pulling down some json and xml data provided
 by the Australian Bureau of Meteorology.
 
 You'll need to manually find your data links / paths on the Bureau's site.
