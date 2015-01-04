@@ -11,6 +11,9 @@ $data_json = $bom->get_json( 'IDV60801/IDV60801.94883.json' );
 //Request a data feed for XML (via ftp)
 $data_xml = $bom->get_xml( 'IDV10461.xml' );
 
+//Close the instance of bom.
+$bom->close();
+
 //Display the data we've fetched.
 if ( $data_json ) {
   echo $data_json;
